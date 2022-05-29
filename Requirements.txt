@@ -1,0 +1,6 @@
+numpy
+flask
+gunicorn
+mediapipe
+pickle
+OpenCV
