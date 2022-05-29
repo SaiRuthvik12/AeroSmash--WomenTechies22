@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://i.postimg.cc/RCfYy142/Logo.png">
+    <meta charset="utf-8">
+    <title>Aero Smash</title>
+    <style>
+      body
+      {
+        background-color: black;
+        text-align: center;
+      }
+      h1
+      {
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: center;
+        color: #00c4cc;
+        font-size: 259%;
+        font-family: 'Odibee Sans', cursive;
+      }
+      h2
+      {
+        margin:0;
+        color: white;
+        text-align: center;
+        font-family: 'Odibee Sans', cursive;
+      }
+      h3
+      {
+        text-align: center;
+        color: #00c4cc;
+      }
+      .logo
+      {
+        width:10%;
+      }
+      .lion-img
+      {
+        width: 50%;
+        position: absolute;
+        left: 25%;
+        z-index: -1;
+      }
+
+    </style>
+  </head>
+  <body>
+    <img class="logo" src="https://i.postimg.cc/RCfYy142/Logo.png" alt="logo-img">
+    <img class="lion-img" src="https://i.postimg.cc/fyjBLKbL/lion.png" alt="lion-img">
+    <h1>AERO SMASH</h1>
+    <h2>SMASH THEM ALL</h2>
+    <h3>Use your hand gestures to choose a difficulty level</h3>
+    <div class="">
+      <img src="{{url_for('video')}}" alt="" width=50%>
+    </div>
+  </body>
+</html>
